@@ -1,0 +1,49 @@
+#registrationForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group{
+    margin-bottom: 10px;
+
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[name="firstName"],
+input[name="lastName"],
+input[name="date"],
+input[name="email"],
+input[name="password"],
+input[name="confirmPassword"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+button[type="submit"]{
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+button:active{
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
+.p {
+    color: red;
+}
