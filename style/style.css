@@ -1,9 +1,17 @@
-#registrationForm {
+body {
+    background-color: rgb(31, 31, 31);
+}
+#registrationForm,
+#loginForm,
+#userForm {
     max-width: 500px;
     margin: 0 auto;
     padding: 35px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+#registrationForm{
+    display: none;
 }
 .form-group{
     margin-bottom: 10px;
@@ -27,7 +35,8 @@ input[name="confirmPassword"] {
     font-size: 16px;
     box-sizing: border-box;
 }
-button[type="submit"]{
+button[type="submit"],
+button[type="button"]{
     display: block;
     margin-top: 20px;
     padding: 10px;
@@ -44,6 +53,24 @@ button:active{
     opacity: 0.8;
 }
 
-.p {
+.p,
+#red {
     color: red;
+}
+#userForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#userinfo{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#userForm {
+    display: none;
+   
 }

@@ -39,8 +39,38 @@
             <input type="password" name="confirmPassword" id="confirmPassword">
             <p class="p" id="pconfirmPassword"></p>
         </div>
-        <button type="submit" id="submit_btn">зареєструватися</button>
+        <div>
+            <button type="submit" id="submit_btn">зареєструватися</button>
+            <button type="button" id="goToLoginBtn">вхід</button>
+        </div>
     </form>
+
+    <form id="loginForm">
+        
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="logInEmail">
+            <p class="p" id="pemail"></p>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="logInPassword">
+            <p class="p" id="ppassword"></p>
+        </div>
+        
+        <div>
+            <button type="submit" id="logInBtn">enter</button>
+            <button type="button" id="registerBtn">зареєструватися</button>
+        </div>
+    </form>
+    <form id="userForm">
+        <ul id="userinfo"></ul>
+        <!-- <div id="userinfo"></div> -->
+        <button type="button" id="exit">exit</button>
+        <button type="button" id="delete">delete</button>
+    </form>
+    
+
     <script src="./script/index.js"></script>
 </body>
 </html>
